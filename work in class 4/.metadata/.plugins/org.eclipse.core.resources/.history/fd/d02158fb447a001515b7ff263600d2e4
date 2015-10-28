@@ -1,0 +1,21 @@
+
+public class sm {
+
+	public static void main(String[] args) {
+		int a = 3;
+		if(a >=1 && a<=5){
+			if (a % 2 ==0) {
+				System.out.println ("The number si even");
+			
+			}else{
+				System.out.println("The number is odd");
+				
+				
+			}
+		}else if(a >=6 && a<=15){
+				
+		}
+
+	}
+
+}

@@ -8,7 +8,9 @@ public class ede
 		String LastName = "Stanoev";
 		
 		System.out.println("Boyan");
-		System.out.print("Stanoev");
+		System.out.println("Stanoev");
+		
+		System.out.print
 
 	}
 

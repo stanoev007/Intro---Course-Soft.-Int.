@@ -1,0 +1,16 @@
+
+public class sm {
+
+	public static void main(String[] args) {
+		System.out.println("Please enter an integer or some text:");
+		int a = input.nextInt();
+		String b = input.nextString();
+		double c = input.nextDouble();
+		
+		if(a == int)
+		
+	
+		
+	}
+
+}
