@@ -1,3 +1,0 @@
-INDEX VERSION 1.127+D:\SoftIntellect\Intro---Course-Soft.-Int\Homework 4\.metadata\.plugins\org.eclipse.jdt.core
-919715216.index
-3595337649.index

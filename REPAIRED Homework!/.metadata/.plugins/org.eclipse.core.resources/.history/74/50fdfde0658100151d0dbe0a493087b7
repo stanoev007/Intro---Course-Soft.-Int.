@@ -1,0 +1,12 @@
+
+public class third {
+
+	public static void main(String[] args) {
+	 int a = 5;
+	 int ha = 10;
+	 
+	 System.out.println("Sabc = " + (a*ha)/2);
+
+	}
+
+}

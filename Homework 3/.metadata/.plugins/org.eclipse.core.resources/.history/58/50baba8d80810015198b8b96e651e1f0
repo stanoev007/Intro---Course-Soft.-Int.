@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class stanoev007 {
+
+	public static void main(String[] args) {
+		Scanner test = new Scanner(System.in, "UTF-8");
+
+		System.out.print("Въведи първо число: ");
+		int sm = test.nextInt();
+
+		System.out.print("Въведи второ число: ");
+		int sm1 = test.nextInt();
+
+		System.out.println(sm + sm1);
+
+		test.close();
+
+	}
+
+}
