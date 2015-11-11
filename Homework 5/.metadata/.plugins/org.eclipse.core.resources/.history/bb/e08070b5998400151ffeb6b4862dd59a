@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class sm2 {
+
+	public static void main(String[] args) {
+		Scanner Motorola = new Scanner(System.in);
+		
+		int N = Motorola.nextInt();
+		int i = 1;
+		
+		if(i % 3 !=0 && i % 7 != 0 && i <= N){
+			System.out.println(i);
+			i++;
+		}
+			
+			
+		Motorola.close();
+	}
+
+}

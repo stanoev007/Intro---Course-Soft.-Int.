@@ -1,0 +1,42 @@
+package изпит;
+
+import java.util.Scanner;
+
+public class sm {
+
+	public static void main(String[] args) {
+		Scanner a = new Scanner(System.in);
+		System.out.println("Въведи число от 2 до 9: ");
+		int b = a.nextInt();
+		
+		if(b >= 2 && b <= 9){
+			int[][] matrix = new int[b][b];
+		}else{
+			System.out.println("Невалидно число!");
+		}
+		
+		switch (b){
+		
+		case 2 : 
+			System.out.println("Броят на необходимите елементи е: " + b*2);
+		case 3 :
+			System.out.println("Броят на необходимите елементи е: " + b*3);
+		case 4 :
+			System.out.println("Броят на необходимите елементи е: " + b*4);
+		case 5 : 
+			System.out.println("Броят на необходимите елементи е: " + b*5);
+		case 6 : 
+			System.out.println("Броят на необходимите елементи е: " + b*6);
+		case 7 : 
+			System.out.println("Броят на необходимите елементи е: " + b*7);
+		case 8 : 
+			System.out.println("Броят на необходимите елементи е: " + b*8);
+		case 9 : 
+			System.out.println("Броят на необходимите елементи е: " + b*9);
+		
+		}
+			
+		a.close();
+	}
+
+}

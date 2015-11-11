@@ -1,0 +1,23 @@
+package изпит;
+
+import java.util.Scanner;
+
+public class sm {
+
+	public static void main(String[] args) {
+		Scanner a = new Scanner(System.in);
+		System.out.println("Въведи число от 2 до 9: ");
+		int b = a.nextInt();
+		
+		if(b < 2 && b > 9){
+			int[][] matrix = new int[b][b];
+		}else{
+			System.out.println("Невалидно число!");
+		}
+			
+		
+		a.close();
+
+	}
+
+}

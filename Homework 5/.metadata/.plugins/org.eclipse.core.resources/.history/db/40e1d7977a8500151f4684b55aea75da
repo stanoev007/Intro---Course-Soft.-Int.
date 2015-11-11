@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class sm3 {
+
+	public static void main(String[] args) {
+		Scanner a = new Scanner(System.in);
+		
+		
+		int min = -5;
+		int max = 350;
+		 
+		for(int i = 1 ; i < n; i++){
+			int n = a.nextInt();
+			if(n > max){
+				n = max;
+			}
+			if(n < min){
+				n = min;
+			}
+		}
+		
+		
+		
+		
+		a.close();
+	}
+
+}
