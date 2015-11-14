@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class sm2 {
+
+	public static void main(String[] args) {
+		Scanner a = new Scanner(System.in);
+		
+		int[][] b = new int[3][4];
+		
+		for (int i = 0; i < args.length; i++) {
+			for (int j = 0; j < b.length; j++) {
+				b[i][j] = a.nextInt();
+				System.out.println(b[i][j]);
+			}
+		}
+	}
+
+}

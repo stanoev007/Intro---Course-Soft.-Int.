@@ -1,0 +1,4 @@
+INDEX VERSION 1.127+D:\STANOEV007 Repository\Intro---Course-Soft.-Int\Homework 7\.metadata\.plugins\org.eclipse.jdt.core
+3595337649.index
+3513027322.index
+2345105362.index
